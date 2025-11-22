@@ -4,9 +4,9 @@ Follow the steps below to set up the project on your local system.
 
 1. Clone the Repository
 
-git clone https://github.com/Amarjit-Gupta/softdef.git
+git clone https://github.com/Amarjit-Gupta/marketing-dashboard.git
 
-cd softdef
+cd marketing-dashboard
 
 2. Install Dependencies
 
