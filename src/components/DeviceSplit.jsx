@@ -34,7 +34,7 @@ const DeviceSplit = ({ data }) => {
   return (
     <div className="bg-white p-5 rounded-xl border w-full min-w-0 flex flex-col shadow-sm hover:shadow-lg border-gray-200 transition-shadow duration-500">
       <h2 className="text-lg font-semibold mb-3">Device Split</h2>
-      <div className="w-full min-w-0 h-50 md:h-80 overflow-hidden">
+      <div className="w-full min-w-0 h-60 md:h-80 overflow-hidden">
         <ResponsiveContainer width="100%" height={chartHeight}>
           <PieChart>
             <Pie data={dataWithPercentage} dataKey="value" nameKey="name" cx="50%" cy="50%" outerRadius="80%" innerRadius="40%" paddingAngle={3} label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(1)}%`}>
