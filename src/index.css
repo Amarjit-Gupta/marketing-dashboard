@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+.x1{right:-100%}
+
+ul li a {
+    text-decoration: none;
+    position: relative;
+}
+
+ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0rem;
+    bottom: 0rem;
+    height: 0.2rem;
+    width: 0%;
+    transition: all ease 1s;
+    
+     background-image: linear-gradient(45deg, rgb(235, 172, 172), rgb(182, 182, 241), rgb(182, 227, 182));
+}
+
+ul li a:hover::after {
+    width: 100%;
+}

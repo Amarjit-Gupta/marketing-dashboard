@@ -1,0 +1,118 @@
+{
+  "kpis": [
+    {
+      "label": "Impressions",
+      "value": "120K",
+      "trend": "+12%"
+    },
+    {
+      "label": "Clicks",
+      "value": "8,450",
+      "trend": "+4%"
+    },
+    {
+      "label": "CTR %",
+      "value": "6.2%",
+      "trend": "+1%"
+    },
+    {
+      "label": "Leads",
+      "value": "1,250",
+      "trend": "+8%"
+    },
+    {
+      "label": "Conversion Rate %",
+      "value": "5.4%",
+      "trend": "+2%"
+    },
+    {
+      "label": "Ad Spend",
+      "value": "₹45,000",
+      "trend": "-3%"
+    }
+  ],
+  "sessions": [10,30,25,40,35,55,70],
+  "leads": [5,10,7,20,15,25,30],
+  "channels": [
+    {
+      "name": "Google",
+      "value": 400
+    },
+    {
+      "name": "Meta",
+      "value": 300
+    },
+    {
+      "name": "LinkedIn",
+      "value": 200
+    },
+    {
+      "name": "Amazon",
+      "value": 350
+    },
+    {
+      "name": "Flipkart",
+      "value": 250
+    },
+    {
+      "name": "Zomato",
+      "value": 300
+    }
+  ],
+  "devices": [
+    {
+      "name": "Desktop",
+      "value": 500
+    },
+    {
+      "name": "Mobile",
+      "value": 700
+    },
+    {
+      "name": "Tablet",
+      "value": 200
+    }
+  ],
+  "campaigns": [
+    {
+      "title": "Winter Sale",
+      "ctr": 4.5
+    },
+    {
+      "title": "Diwali Offers",
+      "ctr": 6.2
+    },
+    {
+      "title": "Summer Promo",
+      "ctr": 5.8
+    }
+  ],
+  "activities": [
+    {
+      "time": "2025-11-18T10:12:00Z",
+      "text": "Campaign X paused by admin"
+    },
+    {
+      "time": "2025-11-18T09:50:00Z",
+      "text": "New lead from landing page"
+    },
+    {
+      "time": "2025-11-18T09:40:00Z",
+      "text": "New lead from Facebook ad"
+    }
+  ],
+  "alerts": [
+    {
+      "type": "critical",
+      "text": "High CPC detected"
+    },
+    {
+      "type": "warning",
+      "text": "Budget limit nearly reached"
+    },
+    {
+      "type": "info",
+      "text": "New keyword suggestions available"
+    }
+  ]
+}
