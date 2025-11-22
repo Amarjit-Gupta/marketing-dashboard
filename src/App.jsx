@@ -21,7 +21,7 @@ const App = () => {
           {data.kpis.slice(0, 6).map((kpi, index) => (<KPIMetricCard key={index} label={kpi.label} value={kpi.value} trend={kpi.trend} />))}
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 my-6 overflow-hidden">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 my-6 overflow-hidden py-3">
           <LineChartComponent sessions={data.sessions} leads={data.leads} />
           <BarChartComponent data={data.channels} />
           <DeviceSplit data={data.devices} />
