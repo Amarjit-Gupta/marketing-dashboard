@@ -31,7 +31,7 @@ const LineChartComponent = ({ sessions, leads }) => {
   return (
     <div className="bg-white p-5 rounded-xl border w-full min-w-0 flex flex-col shadow-sm hover:shadow-lg border-gray-200 transition-shadow duration-500">
       <h2 className="text-lg font-semibold mb-3">Sessions vs Leads</h2>
-      <div className="w-full min-w-0  h-60 md:h-80 overflow-hidden border border-red-500">
+      <div className="w-full min-w-0 h-60 md:h-80 overflow-hidden">
         <ResponsiveContainer width="100%" height={chartHeight} >
           <LineChart data={data}>
             <CartesianGrid strokeDasharray="3 3" />
